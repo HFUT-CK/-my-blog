@@ -71,12 +71,25 @@
         </div>
     </section>
 
+    <div class="post-overlay" id="postOverlay">
+        <div class="post-modal">
+            <button class="post-close" onclick="closePost()">✕</button>
+            <h2 id="postTitle"></h2>
+            <div class="post-meta">
+                <span id="postDate"></span>
+                <span class="tags" id="postTags"></span>
+            </div>
+            <div class="post-content" id="postContent"></div>
+        </div>
+    </div>
+
     <footer>
         <div class="container">
             <p>&copy; 2026 My Blog. All rights reserved.</p>
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="main.js"></script>
 </body>
 </html>
